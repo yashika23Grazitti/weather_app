@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
-API_KEY = 'YOUR_API_KEY'
+API_KEY = 'bf95cdb79708f039b34acdc26362a87a'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 @app.route('/', methods=['GET', 'POST'])
